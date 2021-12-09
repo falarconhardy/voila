@@ -27,7 +27,6 @@ PyYAML==6.0
 scikit-learn==1.0.1
 seaborn==0.11.2
 setuptools-scm==6.3.2
-sip==4.19.13
 Sphinx==4.2.0
 tenacity==8.0.1
 terminado==0.9.4
