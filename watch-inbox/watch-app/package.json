@@ -1,0 +1,16 @@
+{
+  "name": "watch-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zepp OS app for Amazfit Balance: tap a button, append a note to a Google Doc",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --import ./test/fakes/register.mjs --test test/*.test.mjs ../receiver/test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@zeppos/device-types": "^4.0.0"
+  },
+  "dependencies": {
+    "@zeppos/zml": "0.0.43"
+  }
+}
